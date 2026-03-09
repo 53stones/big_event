@@ -1,0 +1,8 @@
+package com.wl.big_things.service;
+
+import com.wl.big_things.pojo.User;
+public interface UserService {
+    User findByUserName(String username);
+
+    void register(String username, String password);
+}
