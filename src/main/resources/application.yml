@@ -3,7 +3,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/big_event
     username: root
-    password: w2028725773
+    password: yourpassword
 mybatis:
   configuration:
     map-underscore-to-camel-case: true
