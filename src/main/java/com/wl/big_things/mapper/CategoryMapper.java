@@ -19,4 +19,6 @@ public interface CategoryMapper {
     Category findById(Integer id);
     @Update("update category set category_name=#{categoryName},category_alias=#{categoryAlias},update_time=#{updateTime} where id = #{id}")
     void update(Category category);
+    @Update("delete from category where id=#{id} ")
+    void delete(Integer id);
 }
