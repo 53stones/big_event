@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.wl.big_things.RedisTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.977 s -- in com.wl.big_things.RedisTest

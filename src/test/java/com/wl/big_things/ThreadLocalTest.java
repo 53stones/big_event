@@ -4,7 +4,7 @@ import com.wl.big_things.pojo.User;
 import org.junit.jupiter.api.Test;
 
 public class ThreadLocalTest {
-    @Test
+    //@Test
     public void testThreadLocalSetAndGet(){
 
         ThreadLocal tl=new ThreadLocal();

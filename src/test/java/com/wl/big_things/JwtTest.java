@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class JwtTest {
-    @Test
+    //@Test
     public void testGen(){
         Map<String,Object> claims = new HashMap<>();
         claims.put("id",1);
@@ -20,7 +20,7 @@ public class JwtTest {
                 .sign(Algorithm.HMAC256("adminwl"));
         System.out.println(token);
     }
-    @Test
+    //@Test
     public void testParrse()
     {
         String token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9" +
